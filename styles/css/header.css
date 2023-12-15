@@ -33,6 +33,7 @@
     font-weight: bolder;
     color: var(--IDG);
     font-size: 1.6em;
+    align-items: center;
 }
 
 .header-top .conteiner-header #logo2 {

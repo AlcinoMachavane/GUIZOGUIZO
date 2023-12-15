@@ -32,21 +32,17 @@
     color: var(--BG);
     background-color: var(--IDG);
     width: 200px;
-    /*border: none;*/
     padding: 10px 20px;
     margin: 0px auto;
     border-radius: 10px;
-    border: 2px solid;
-    /*border-bottom: 1px solid var(--ID);*/
-    /*box-shadow: 0px 3px 5px var(--ID);*/
+    /*border: 2px solid;*/
 }
 
 .btn:hover{
-    background-color: var(--BG2);
+    background-color: #3197ec;
     transition-duration: .5s;
-    /*box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.200);*/
-    border: 2px solid var(--IDG);
-    color: var(--IDG);
+    border: none;
+    color: var(--BG);
 
 }
 /* -------------------------------------------------------------------- */
@@ -57,15 +53,14 @@
     border: none;
     padding: 10px 20px;
     margin: 10px auto;
-    background-color: var(--BG2);
+    background-color: #2C3C4C;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.200);
 }
 
 .btn-sucess:hover{
     color: var(--BG);
-    background-color: var(--sucess);
-    /*border-left: .5px solid var(--ID);*/
-    /*box-shadow: 2px 0px 5px var(--ID);*/
+    background-color: var(--IDG);
+    transition-duration: .2s;
 }
 /* ---------------------------------------------------------------------------- */
 
@@ -106,35 +101,24 @@
 
 /*/////////////////////////////////////////////////////////// ICONES /////////////////////////////////////////////////////////*/
 
-.ico-dev{
-    background-image: url("../../icons/desenvolvimento.png");
+.ico-dev, .ico-mkt, .ico-dsg, .ico-fnc{
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    width: 64px;
-    height: 64px;
+    max-width: 64px;
+    max-height: 64px;
+}
+
+.ico-dev{
+    background-image: url("../../icons/desenvolvimento.png");
 }
 .ico-mkt{
     background-image: url("../../icons/marketing.png");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 64px;
-    height: 64px;
 }
 .ico-dsg{
     background-image: url("../../icons/design.png");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 64px;
-    height: 64px;
 }
 .ico-fnc{
     background-image: url("../../icons/fornecimento.png");
-    background-position: center center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 64px;
-    height: 64px;
+
 }

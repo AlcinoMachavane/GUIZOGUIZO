@@ -73,14 +73,17 @@ footer{
 }
 
 .subscribe .subscribe-sec .form form{
-    display: block;
+    display: flex;
     margin: 40px auto;
+    flex-basis: 50%;
     padding: 20px 0;
     min-width: 400px;
+    max-width: 600px;
     justify-content: center;
     border: 1px solid #97acc1;
     border-radius: 5px;
     background-color: white;
+    flex-wrap: wrap;
 
 }
 
@@ -93,40 +96,68 @@ footer{
     border: none;
 }
 
-.subscribe .subscribe-sec .form form .ico-subscribe{
-    max-width: 20px;
-    padding: 2px;
-}
-
-
-.subscribe .subscribe-sec .form form .lbl-inp {
-    display: block;
-}
+/*.subscribe .subscribe-sec .form form .ico-subscribe{*/
+/*    max-width: 20px;*/
+/*    padding: 2px;*/
+/*}*/
 
 .subscribe .subscribe-sec .form form .lbl-inp{
-    text-align: center;
+    display: flex;
+    flex-basis: 100%;
+    text-align: left;
+    font-size: .8em;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding-top: 15px;
 }
 
 .subscribe .subscribe-sec .form form .lbl-inp label{
+    display: flex;
+    flex-basis: 80%;
     margin: auto;
     color: rgba(0, 0, 0, 0.7);
 }
 
-.subscribe .subscribe-sec .form form .lbl-inp input{
-    display: block;
-    max-width: 380px;
-    width: 90%;
-    height: 40px;
+.subscribe .subscribe-sec .form form .lbl-inp .arange{
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
     margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe .subscribe-sec .form form .lbl-inp .arange .arange-img{
+    /*background-color: brown;*/
+    display: flex;
+    flex-basis: 10%;
+    justify-content: flex-end;
+}
+
+.subscribe .subscribe-sec .form form .lbl-inp .arange img{
+    display: flex;
+    flex-basis: 100%;
+    margin: 0 auto;
+    max-width: 20px;
+    max-height: 20px;
+    align-items: center;
+}
+
+.subscribe .subscribe-sec .form form .lbl-inp input{
+    display: flex;
+    max-width: 380px;
+    flex-basis: calc(90% - 40px);
+    height: 40px;
+    margin: 0 auto;
     margin-top: 5px;
-    margin-bottom: 30px;
-    padding: 5px;
     border-radius: 10px;
     border: 1px solid #97acc1;
+    align-items: center;
+    justify-content: center;
 }
 
 .subscribe .subscribe-sec .form form #help input{
-    height: 150px;
+    height: 80px;
     align-items: flex-start;
     align-content: flex-start;
 }
@@ -138,14 +169,10 @@ footer{
 
 }
 
-
-
-
 .foot{
-    background-color: var(--BG2);
+    background-color: #2C3C4C;
     width: 100%;
     margin: 0 auto;
-    margin-top: 1.8em;
 }
 
 .foot .article{
