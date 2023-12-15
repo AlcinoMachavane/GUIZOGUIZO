@@ -1,0 +1,279 @@
+@charset "UTF_8";
+
+.main {
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.main .about {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.main .main-header {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.main .main-title {
+    margin: 0 auto;
+    margin-top: .8em;
+    margin-bottom: .2em;
+    font-size: 2.4em;
+}
+
+.main .main-header p {
+    line-height: 2em;
+    text-align: justify;
+}
+
+.main .article-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+.main .article-content article {
+    flex-basis: calc(50% - 20px);
+    margin: 0 10px;
+    min-width: 200px;
+    justify-content: space-between;
+    text-align: justify;
+}
+
+.main .article-content article h2 {
+    width: 100%;
+    max-width: 400px;
+    cursor: pointer;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.main .article-content article p {
+    width: 100%;
+    cursor: pointer;
+    margin-bottom: 2em;
+    line-height: 1.6em;
+}
+
+.service {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #97acc1;
+}
+
+.service .service-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+    background-color: gold;
+}
+
+.service .service-content h1{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2em;
+
+}
+
+.service .service-content article {
+    display: flex;
+    flex-basis: 50%;
+    padding-bottom: 2em;
+    min-width: 200px;
+    margin: 0 auto;
+    align-items: center;
+    text-align: justify;
+    flex-wrap: wrap;
+}
+
+.service .service-content article .ico-h2{
+    display: flex;
+    flex-basis: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.service .service-content article span{
+    display: flex;
+    flex-basis: 20%;
+    justify-content: center;
+    align-items: center;
+    max-width: 64px;
+    margin-right: 20px;
+}
+
+.service .service-content article h2 {
+    display: flex;
+    flex-basis: 80%;
+    text-align: center;
+    cursor: pointer;
+    /*padding: 10px;*/
+}
+
+.service .service-content article p {
+    display: flex;
+    flex-basis: 100%;
+    cursor: pointer;
+    margin-bottom: 2em;
+    line-height: 1.6em;
+}
+
+.about2 .about2-limit{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about2 .main-header .main-title{
+    flex-basis: 100%;
+    max-width: 1200px !important;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 0;
+    font-size: 1.7em;
+
+}
+
+.about2 .article-content article h2{
+    margin: 20px auto;
+    text-align: center;
+    max-width: 380px;
+    font-size: 1.2em;
+}
+
+.cta {
+    width: 100%;
+    margin: 0 auto;
+    background-color: var(--BG2);
+}
+
+.cta .cta-content {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    min-height: 100px;
+    padding: 20px;
+    align-content: space-between;
+}
+
+.cta .cta-content article {
+    height: 100%;
+    display: flex;
+    flex-basis: calc(80% - 20px);
+    margin: 0 auto;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.cta .cta-content h1 {
+    color: white;
+    text-align: center;
+    flex-basis: 100%;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 1.6em;
+    justify-content: center;
+    border-bottom: 1px solid white;
+}
+
+.cta .cta-content article h2 {
+    color: white;
+    display: flex;
+    margin: .2em;
+    margin-right: 40px;
+    width: 100%;
+    text-align: right;
+    justify-content: right;
+    font-weight: normal;
+    font-size: 1.4em;
+}
+
+.cta .cta-content .cta-button {
+    display: flex;
+    flex-basis: calc(20% - 20px);
+    align-items: center;
+    text-align: center;
+}
+
+.why-us {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.why-us .why-us-content {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.why-us .why-us-content h1{
+    flex-basis: 100%;
+    margin: 30px auto;
+    text-align: center;
+    font-size: 1.8em;
+}
+
+.why-us .why-us-content .why-us-content-info{
+    flex: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.why-us .why-us-content .us-img{
+    display: flex;
+    flex-basis: 50%;
+}
+
+.why-us .img {
+    flex-basis: 100%;
+    background-image: url("../../images/tecladoPink.svg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.why-us .why-us-article-content {
+    display: flex;
+    flex-basis: calc(50% - 20px);
+    text-align: center;
+}
+
+.why-us .why-us-article-content article > h2{
+    text-align: center!important;
+    padding-bottom: 10px;
+}
+
+.why-us .why-us-article-content article > h2, p {
+    margin: 0 auto;
+    max-width: 80%;
+}
+
+.why-us .why-us-article-content article > p{
+    line-height: 2em;
+    text-align: justify;
+}
+
+.why-us .why-us-article-content article > p {
+    margin-bottom: 20px;
+}

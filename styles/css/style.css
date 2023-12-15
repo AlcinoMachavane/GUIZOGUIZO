@@ -1,0 +1,140 @@
+@charset "UTF_8";
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    text-decoration: none;
+    font-family: var(--fonte-padrao);
+    color: #000000c4;
+    list-style: none;
+}
+
+
+/*  PALETA DE CORES */
+
+:root{
+    --ID: #97acc1;
+    --IDG: #0669bb;
+    --BG: #ffffff;
+    --BG2: rgb(12, 10, 62);
+    --Font: #000000;
+    --sucess: rgba(0, 128, 0, 0.76);
+    --warnning: rgba(255, 166, 0, 0.733);
+    --negative: rgba(255, 0, 0, 0.733);
+    --fonte-padrao: Verdana, Sans-serif;
+}
+
+
+/*  BOTÕES PREDEFINIDOS */
+.btn{
+    color: var(--BG);
+    background-color: var(--IDG);
+    width: 200px;
+    /*border: none;*/
+    padding: 10px 20px;
+    margin: 0px auto;
+    border-radius: 10px;
+    border: 2px solid;
+    /*border-bottom: 1px solid var(--ID);*/
+    /*box-shadow: 0px 3px 5px var(--ID);*/
+}
+
+.btn:hover{
+    background-color: var(--BG2);
+    transition-duration: .5s;
+    /*box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.200);*/
+    border: 2px solid var(--IDG);
+    color: var(--IDG);
+
+}
+/* -------------------------------------------------------------------- */
+
+.btn-sucess{
+    color: var(--BG);
+    width: 200px;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px auto;
+    background-color: var(--BG2);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.200);
+}
+
+.btn-sucess:hover{
+    color: var(--BG);
+    background-color: var(--sucess);
+    /*border-left: .5px solid var(--ID);*/
+    /*box-shadow: 2px 0px 5px var(--ID);*/
+}
+/* ---------------------------------------------------------------------------- */
+
+.btn-warnning{
+    color: var(--BG);
+    width: 200px;
+    border: none;
+    padding: 10px 20px;
+    margin: 200px auto;
+    background: var(--warnning);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.200);
+    
+}
+
+.btn-warnning:hover{
+    color: var(--warnning);
+    background-color: var(--BG);
+    /*border-left: .5px solid var(--ID);*/
+    /*box-shadow: 2px 0px 5px var(--ID);*/
+}
+/* ---------------------------------------------------------------------------------- */
+.btn-negative{
+    color: var(--BG);
+    width: 200px;
+    border: none;
+    padding: 10px 20px;
+    margin: 200px auto;
+    background-color: var(--negative);
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.200);
+}
+
+.btn-negative:hover{
+    color: var(--negative);
+    background-color: var(--BG);
+    /*border-left: .5px solid var(--ID);*/
+    /*box-shadow: 2px 0px 5px var(--ID);*/
+}
+
+/*/////////////////////////////////////////////////////////// ICONES /////////////////////////////////////////////////////////*/
+
+.ico-dev{
+    background-image: url("../../icons/desenvolvimento.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 64px;
+    height: 64px;
+}
+.ico-mkt{
+    background-image: url("../../icons/marketing.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 64px;
+    height: 64px;
+}
+.ico-dsg{
+    background-image: url("../../icons/design.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 64px;
+    height: 64px;
+}
+.ico-fnc{
+    background-image: url("../../icons/fornecimento.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 64px;
+    height: 64px;
+}
