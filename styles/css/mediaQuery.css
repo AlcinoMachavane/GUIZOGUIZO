@@ -207,6 +207,10 @@
             flex-basis: calc(100% - 20px);
         }
 
+        .foot .article .menu {
+            padding-left: 0px;
+        }
+
         .foot .article .menu, .contact {
             flex-basis: 50%;
             justify-content: center;

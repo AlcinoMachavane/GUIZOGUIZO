@@ -206,6 +206,7 @@ footer {
     display: flex;
 }
 
+
 .foot .article .menu, .contact {
     display: flex;
     flex-basis: 25%;
