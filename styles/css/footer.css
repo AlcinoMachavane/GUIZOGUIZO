@@ -1,19 +1,20 @@
 @charset "UTF_8";
 
-footer{
+footer {
     width: 100%;
     margin: 0 auto;
-    background-color: #2C3C4C;
+    background-color: rgba(44, 60, 76, 0.89);
 }
 
-.subscribe{
+.subscribe {
     max-width: 1200px;
     margin: 0 auto;
     padding-top: 10px;
+    padding-bottom: 80px;
 
 }
 
-.subscribe .subscribe-sec h1{
+.subscribe .subscribe-sec h1 {
     color: white;
     display: flex;
     flex-basis: 100%;
@@ -26,21 +27,21 @@ footer{
     border-bottom: 1px solid var(--BG);
 }
 
-.subscribe .subscribe-sec .subscribe-sec-div{
+.subscribe .subscribe-sec .subscribe-sec-div {
     display: flex;
     flex-basis: 100%;
     padding-bottom: 20PX;
     flex-wrap: wrap;
 }
 
-.subscribe .subscribe-sec article{
+.subscribe .subscribe-sec article {
     display: flex;
     flex-basis: 50%;
     flex-wrap: wrap;
     /*padding-bottom: 300px;*/
 }
 
-.subscribe .subscribe-sec article h2{
+.subscribe .subscribe-sec article h2 {
     color: white;
     display: flex;
     flex-basis: 80%;
@@ -50,7 +51,7 @@ footer{
     text-align: center;
 }
 
-.subscribe .subscribe-sec article p{
+.subscribe .subscribe-sec article p {
     color: white;
     display: flex;
     flex-basis: 100%;
@@ -62,19 +63,18 @@ footer{
     line-height: 40px;
 }
 
-.subscribe .subscribe-sec article span{
+.subscribe .subscribe-sec article span {
     flex-basis: 100%;
     height: 60%;
 }
 
-.subscribe .subscribe-sec .form{
+.subscribe .subscribe-sec .form {
     display: flex;
     flex-basis: 50%;
-    /*background-color: rgba(255, 255, 255, 0.12);*/
     border-radius: 5px;
 }
 
-.subscribe .subscribe-sec .form form{
+.subscribe .subscribe-sec .form form {
     display: flex;
     margin: 0 auto;
     flex-basis: 50%;
@@ -89,7 +89,7 @@ footer{
 
 }
 
-.subscribe .subscribe-sec .form form h1{
+.subscribe .subscribe-sec .form form h1 {
     color: var(--BG2);
     margin: 0;
     margin-bottom: 20px;
@@ -98,12 +98,7 @@ footer{
     border: none;
 }
 
-/*.subscribe .subscribe-sec .form form .ico-subscribe{*/
-/*    max-width: 20px;*/
-/*    padding: 2px;*/
-/*}*/
-
-.subscribe .subscribe-sec .form form .lbl-inp{
+.subscribe .subscribe-sec .form form .lbl-inp {
     display: flex;
     flex-basis: 100%;
     text-align: left;
@@ -113,14 +108,14 @@ footer{
     padding-top: 15px;
 }
 
-.subscribe .subscribe-sec .form form .lbl-inp label{
+.subscribe .subscribe-sec .form form .lbl-inp label {
     display: flex;
     flex-basis: 80%;
     margin: auto;
     color: rgba(0, 0, 0, 0.7);
 }
 
-.subscribe .subscribe-sec .form form .lbl-inp .arange{
+.subscribe .subscribe-sec .form form .lbl-inp .arange {
     display: flex;
     flex-wrap: wrap;
     flex-basis: 100%;
@@ -129,14 +124,14 @@ footer{
     align-items: center;
 }
 
-.subscribe .subscribe-sec .form form .lbl-inp .arange .arange-img{
+.subscribe .subscribe-sec .form form .lbl-inp .arange .arange-img {
     /*background-color: brown;*/
     display: flex;
     flex-basis: 10%;
     justify-content: flex-end;
 }
 
-.subscribe .subscribe-sec .form form .lbl-inp .arange img{
+.subscribe .subscribe-sec .form form .lbl-inp .arange img {
     display: flex;
     flex-basis: 100%;
     margin: 0 auto;
@@ -145,7 +140,7 @@ footer{
     align-items: center;
 }
 
-.subscribe .subscribe-sec .form form .lbl-inp input{
+.subscribe .subscribe-sec .form form .lbl-inp input {
     display: flex;
     max-width: 380px;
     flex-basis: calc(90% - 40px);
@@ -158,44 +153,154 @@ footer{
     justify-content: center;
 }
 
-.subscribe .subscribe-sec .form form #help input{
+.subscribe .subscribe-sec .form form #help input {
     height: 80px;
     align-items: flex-start;
     align-content: flex-start;
 }
 
-.subscribe .subscribe-sec .form form .lbl-inp input.btn-sucess{
+.subscribe .subscribe-sec .form form .lbl-inp input.btn-sucess {
     border-radius: 10px;
     margin: 20px auto;
     color: white;
 
 }
 
-.foot{
+.foot {
     background-color: #2C3C4C;
     width: 100%;
     margin: 0 auto;
 }
 
-.foot .article{
+.foot .article {
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
     margin: 0 auto;
     max-width: 1200px;
+    padding-top: 80px;
 
 }
 
-.foot .article h1{
+.foot .article > p {
     display: flex;
+    flex-basis: 100%;
     text-align: center;
-    color: white;
+    color: #53708F;
     font-weight: lighter;
-    font-size: 1em;
-}
-
-.subscribe .subscribe-sec .subscribe-sec-div > article > h2{
+    font-size: .8em;
     justify-content: center;
 }
 
-.subscribe .subscribe-sec .subscribe-sec-div > article > p{
+.subscribe .subscribe-sec .subscribe-sec-div > article > h2 {
+    justify-content: center;
+}
+
+.subscribe .subscribe-sec .subscribe-sec-div > article > p {
     text-align: justify;
+}
+
+.foot .article .foot-items {
+    display: flex;
+}
+
+.foot .article .menu, .contact {
+    display: flex;
+    flex-basis: 25%;
+    flex-wrap: wrap;
+}
+
+.foot .article .menu {
+    padding-left: 20px;
+}
+
+.foot .article .menu ul{
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+}
+
+.foot .article .menu ul li{
+    line-height: 40px;
+    font-size: .8em;
+    color: #53708F;
+    display: flex;
+    flex-basis: 100%;
+}
+
+.foot .article .menu ul li a{
+    display: flex;
+    flex-basis: 100%;
+    color: #53708F;
+    font-weight: bolder;
+    padding-left: 5px;
+}
+
+.foot .article .menu ul li a:hover{
+    background-color: #97acc1;
+    color: black;
+}
+
+.foot .menu h2 {
+    display: flex;
+    flex-basis: 100%;
+    margin: 0 auto;
+    font-size: 1em;
+    color: #53708F;
+}
+
+.foot .article .contact {
+}
+
+.foot .contact h2 {
+    display: flex;
+    flex-basis: 100%;
+    margin: 0 auto;
+    font-size: 1em;
+    color: #53708F;
+}
+
+.foot .contact a {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    line-height: 45px;
+    font-size: .8em;
+    color: #53708F;
+    padding-left: 5px;
+    font-weight: bolder;
+}
+
+.foot .contact a:hover{
+    background-color: #97acc1;
+    color: black;
+}
+
+.foot .contact a img {
+    max-width: 20px;
+    align-items: center;
+    margin-right: 5px;
+    background-color: #53708f;
+    border-radius: 50%;
+}
+
+.foot .article .guizo {
+    flex-wrap: wrap;
+    flex-basis: 50%;
+}
+
+.foot .guizo h2 {
+    display: flex;
+    flex-basis: 80%;
+    margin: 0 auto;
+    font-size: 1em;
+    color: #53708F;
+}
+
+.foot .guizo > p {
+    text-align: justify;
+    line-height: 30px;
+    font-size: .8em;
+    color: #53708F;
 }
 

@@ -3,7 +3,6 @@
 .main {
     width: 100%;
     margin: 0 auto;
-
 }
 
 .main .about {
@@ -168,7 +167,6 @@
 .cta {
     width: 100%;
     margin: 0 auto;
-    /*background-color: #9EB3C2;*/
     box-shadow: 0 1px 5px rgba(0, 0, 0, 0.26);
     background-color: rgba(158, 179, 194, 0.34);
 }

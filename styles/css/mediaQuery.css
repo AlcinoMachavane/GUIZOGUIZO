@@ -64,10 +64,7 @@
     }
 
     .subscribe .subscribe-sec .form {
-        /*display: flex;*/
-        /*flex-basis: 50%;*/
-        background-color: rgba(255, 255, 255, 0.12);
-        /*border-radius: 5px;*/
+        padding-top: 80px;
     }
 }
 
@@ -98,6 +95,13 @@
             flex-basis: calc(100% - 40px);
         }
     }
+
+/* (min-width: 700px) and (max-width: 820px) */
+@media /*media and*/ (min-width: 700px) /*and(max-width: 820px)*/{
+    .menu-mobile-list{
+        display: none;
+    }
+}
 
 
     /* 700px */
@@ -177,6 +181,10 @@
             /*background-color: white;*/
         }
 
+        /*.menu-mobile-list{*/
+        /*    display: none;*/
+        /*}*/
+
         .main .article-content article {
             flex-basis: calc(100% - 20px);
         }
@@ -197,6 +205,47 @@
 
         .why-us .why-us-article-content {
             flex-basis: calc(100% - 20px);
+        }
+
+        .foot .article .menu, .contact {
+            flex-basis: 50%;
+            justify-content: center;
+            margin: 0 auto;
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .foot .article .menu h2, .contact h2{
+            justify-content: center;
+            text-align: center;
+            margin: 0 auto;
+        }
+
+        .foot .menu ul li{
+            margin: 0 auto;
+            justify-content: center;
+        }
+
+        .foot .menu ul li a{
+            margin: 0 auto;
+            justify-content: center;
+        }
+
+        .foot .contact a{
+            flex-basis: 100%;
+            margin: 0 auto;
+            justify-content: center;
+        }
+
+        .foot .article .guizo {
+            flex-basis: 100%;
+            margin: 0 auto;
+            justify-content: center;
+        }
+
+        .foot .guizo h2{
+            justify-content: center;
+            text-align: center;
         }
 
     }
@@ -253,5 +302,14 @@
         .main .article-content article h2{
             font-size: 1.2em;
             max-width: 300px;
+        }
+
+        .foot .article .menu, .contact {
+        flex-basis: 100%;
+            margin-bottom: 40px;
+        }
+
+        .foot .article .guizo {
+            flex-basis: 100%;
         }
     }
