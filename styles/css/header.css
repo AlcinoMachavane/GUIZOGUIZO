@@ -4,13 +4,11 @@
 /* MENU */
 .header-top {
     width: 100%;
-    /*box-shadow: 2px 0px 5px var(--ID);*/
 }
 
 .header-top .conteiner-header {
     max-width: 1200px;
     margin: 0 auto;
-    /*margin-bottom: 1em;*/
     padding: 0 2em;
     display: flex;
     height: 80px;
@@ -25,8 +23,9 @@
 }
 
 .header-top .conteiner-header .header-logo img {
-    margin-right: 10px;
+    /*margin-right: 10px;*/
     width: 60px;
+    padding: 5px;
 }
 
 .header-top .conteiner-header #logo {
@@ -37,12 +36,9 @@
 }
 
 .header-top .conteiner-header #logo2 {
-    background-image: url("../../icons/icon_logo.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    max-width: 80px;
+    align-items: center;
     display: none;
+    margin: auto;
 }
 
 .header-top .conteiner-header .header-menu {

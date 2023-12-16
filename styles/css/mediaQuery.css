@@ -69,6 +69,7 @@
         background-color: rgba(255, 255, 255, 0.12);
         /*border-radius: 5px;*/
     }
+}
 
     /* 920px */
     @media (max-width: 960px){
@@ -112,15 +113,16 @@
         }
 
         .header-top .conteiner-header #logo2 {
-            background-image: url("../../icons/icon_logo.svg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-position: center center;
-            max-width: 45px;
-            max-height: 45px;
+            max-width: 50px;
+            max-height: 50px;
             display: flex;
-            box-shadow: 0px 0px 0px rgba(255, 255, 255, 0);
             align-items: center;
+            justify-content: center;
+        }
+
+        .header-top .conteiner-header #logo2 img{
+            align-items: center;
+            justify-content: center;
         }
 
 
@@ -149,7 +151,7 @@
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            max-width: 60px;
+            max-width: 50px;
             border-radius: 3px;
             padding: 3px 0;
             /*background-color: gold;*/
@@ -163,16 +165,16 @@
         .header-top .conteiner-header .menu-mobile span {
             display: flex;
             flex-basis: 100%;
-            max-width: 50px;
-            min-width: 50px;
+            max-width: 30px;
+            min-width: 30px;
             height: 5px;
             border-radius: 3px;
-            margin: 3px auto;
+            margin: 2px auto;
             background-color: #0669bb;
         }
 
         .header-top .conteiner-header .menu-mobile span:hover {
-            background-color: white;
+            /*background-color: white;*/
         }
 
         .main .article-content article {
@@ -247,5 +249,9 @@
             font-size: .8em;
             max-width: 160px;
         }
+
+        .main .article-content article h2{
+            font-size: 1.2em;
+            max-width: 300px;
+        }
     }
-}

@@ -65,7 +65,7 @@
 .service {
     width: 100%;
     margin: 0 auto;
-    background-color: #97acc1;
+    background-color: rgba(151, 172, 193, 0.19);
 }
 
 .service .service-content {
@@ -74,7 +74,6 @@
     display: flex;
     flex-wrap: wrap;
     margin-top: 2em;
-    background-color: gold;
 }
 
 .service .service-content h1{
@@ -106,13 +105,14 @@
     flex-basis: 100%;
     max-width: 400px;
     margin: 0 auto;
-    /*margin-bottom: 20px;*/
+    padding: 0 3px;
     justify-content: center;
 }
 
 .service .service-content article .ico-h2 h2{
     justify-content: center;
     text-align: center;
+    align-items: center;
 }
 
 .service .service-content article span{
@@ -222,6 +222,10 @@
     flex-basis: calc(20% - 20px);
     align-items: center;
     text-align: center;
+}
+
+.cta .cta-content .cta-button a{
+    border-radius: 10px;
 }
 
 .why-us {
