@@ -190,6 +190,7 @@ footer {
     font-weight: lighter;
     font-size: .8em;
     justify-content: center;
+    border-top: .5px solid #53708F;
 }
 
 .subscribe .subscribe-sec .subscribe-sec-div > article > h2 {
