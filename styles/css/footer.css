@@ -124,22 +124,6 @@ footer {
     align-items: center;
 }
 
-.subscribe .subscribe-sec .form form .lbl-inp .arange .arange-img {
-    /*background-color: brown;*/
-    display: flex;
-    flex-basis: 10%;
-    justify-content: flex-end;
-}
-
-.subscribe .subscribe-sec .form form .lbl-inp .arange img {
-    display: flex;
-    flex-basis: 100%;
-    margin: 0 auto;
-    max-width: 20px;
-    max-height: 20px;
-    align-items: center;
-}
-
 .subscribe .subscribe-sec .form form .lbl-inp input {
     display: flex;
     max-width: 380px;
@@ -153,7 +137,16 @@ footer {
     justify-content: center;
 }
 
-.subscribe .subscribe-sec .form form #help input {
+.subscribe .subscribe-sec .form form .lbl-inp .arange .textarea{
+    display: flex;
+    max-width: 380px;
+    flex-basis: calc(90% - 40px);
+    margin: 0 auto;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #97acc1;
+    justify-content: center;
     height: 80px;
     align-items: flex-start;
     align-content: flex-start;
