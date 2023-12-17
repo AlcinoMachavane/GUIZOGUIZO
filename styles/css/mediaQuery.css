@@ -281,6 +281,28 @@
         .subscribe .subscribe-sec .form form .lbl-inp input {
             width: 90%;
         }
+
+        .subscribe .subscribe-sec .form form .lbl-inp .arange .textarea{
+            display: flex;
+            max-width: 300px;
+            flex-basis: calc(90% - 40px);
+            margin: 0 auto;
+            margin-top: 5px;
+            padding: 5px;
+            border-radius: 10px;
+            border: 1px solid #97acc1;
+            justify-content: center;
+
+        }
+
+        .service .service-content h1{
+            max-width: 380px;
+            font-size: 1.6em;
+        }
+
+        .service .service-content article{
+            flex-basis: 100%;
+        }
     }
 
 
@@ -301,6 +323,11 @@
         .content-img-main a {
             font-size: .8em;
             max-width: 160px;
+        }
+
+        .service .service-content h1{
+            max-width: 280px;
+            font-size: 1.6em;
         }
 
         .main .article-content article h2{
