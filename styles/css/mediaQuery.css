@@ -321,7 +321,8 @@
         }
 
         .content-img-main a {
-            font-size: .8em;
+            font-size: .9em;
+            font-weight: bold;
             max-width: 160px;
         }
 
