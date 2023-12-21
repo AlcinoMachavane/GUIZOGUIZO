@@ -90,8 +90,21 @@
     background-color: var(--IDG);
 }
 
+/*.header-top .conteiner-header .header-menu ul li .home:hover{*/
+/*    background-color: rebeccapurple;*/
+/*}*/
 
-/* IMAGEM PRINCIPAL */
+/*.header-top .conteiner-header .header-menu ul li a i{*/
+/*    color: var(--IDG);*/
+/*    font-size: 1.8em;*/
+/*}*/
+
+/*.header-top .conteiner-header .header-menu ul li a i:hover{*/
+/*    color: var(--BG);*/
+/*}*/
+
+
+    /* IMAGEM PRINCIPAL */
 .content {
     /*background-color: var(--IDG);*/
     width: 100%;
