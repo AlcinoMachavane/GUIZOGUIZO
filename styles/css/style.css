@@ -7,7 +7,7 @@
     border: none;
     text-decoration: none;
     font-family: var(--fonte-padrao);
-    color: #000000c4;
+    /*color: #000000c4;*/
     list-style: none;
 
     margin-block-start: 0;
@@ -46,17 +46,20 @@
 /*  BOTÕES PREDEFINIDOS */
 .btn {
     color: var(--BG);
-    background-color: var(--IDG);
+    /*background-color: var(--IDG);*/
+    background-image: linear-gradient(to right, #253889, #36a9e1);
     width: 200px;
     padding: 10px 20px;
     margin: 0px auto;
     border-radius: 10px;
     /*border: 2px solid;*/
+    transition: 1s;
 }
 
 .btn:hover {
-    background-color: #3197ec;
-    transition-duration: .5s;
+    /*background-color: #3197ec;*/
+    background-image: linear-gradient(to right, #3361aa, #36a9e1, #253889);
+    transition-duration: 1s;
     border: none;
     color: var(--BG);
 
@@ -72,6 +75,7 @@
     margin: 10px auto;
     background-color: #2C3C4C;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.200);
+    transition: 1s;
 }
 
 .btn-sucess:hover {
@@ -90,6 +94,7 @@
     margin: 200px auto;
     background: var(--warnning);
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.200);
+    transition: 1s;
 
 }
 
@@ -109,6 +114,7 @@
     margin: 200px auto;
     background-color: var(--negative);
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.200);
+    transition: 1s;
 }
 
 .btn-negative:hover {
@@ -144,3 +150,7 @@
     background-image: url("../../icons/fornecimento.png");
 
 }
+
+/*////////////////////////////////////////////// BLOG ////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////// BLOG ////////////////////////////////////////////////////////////////*/
+

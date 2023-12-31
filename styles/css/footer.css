@@ -3,28 +3,29 @@
 footer {
     width: 100%;
     margin: 0 auto;
-    background-color: rgba(44, 60, 76, 0.89);
+    /*background-color: rgba(44, 60, 76, 0.89);*/
+    background-color: whitesmoke;
 }
 
 .subscribe {
     max-width: 1200px;
     margin: 0 auto;
-    padding-top: 10px;
+    padding-top: 40px;
     padding-bottom: 80px;
 
 }
 
 .subscribe .subscribe-sec h1 {
-    color: white;
+    color: rgba(0, 0, 0, 0.7);
     display: flex;
     flex-basis: 100%;
     justify-content: center;
     align-items: center;
     text-align: center;
-    margin: 1.8em auto;
+    margin-bottom: 40px;
     font-size: 2em;
     padding-bottom: 10px;
-    border-bottom: 1px solid var(--BG);
+    border-bottom: 1px solid lightgrey;
 }
 
 .subscribe .subscribe-sec .subscribe-sec-div {
@@ -42,7 +43,7 @@ footer {
 }
 
 .subscribe .subscribe-sec article h2 {
-    color: white;
+    color: rgba(0, 0, 0, 0.7);
     display: flex;
     flex-basis: 80%;
     margin: 0 auto;
@@ -52,7 +53,7 @@ footer {
 }
 
 .subscribe .subscribe-sec article p {
-    color: white;
+    color: rgba(0, 0, 0, 0.7);
     display: flex;
     flex-basis: 100%;
     justify-content: center;
@@ -90,7 +91,7 @@ footer {
 }
 
 .subscribe .subscribe-sec .form form h1 {
-    color: var(--BG2);
+    color: rgba(0, 0, 0, 0.7);
     margin: 0;
     margin-bottom: 20px;
     padding: 0;
@@ -134,10 +135,11 @@ footer {
     border-radius: 10px;
     border: 1px solid #97acc1;
     align-items: center;
+    padding: 5px;
     justify-content: center;
 }
 
-.subscribe .subscribe-sec .form form .lbl-inp .arange .textarea{
+.subscribe .subscribe-sec .form form .lbl-inp .arange .textarea {
     display: flex;
     max-width: 380px;
     flex-basis: calc(90% - 40px);
@@ -160,7 +162,8 @@ footer {
 }
 
 .foot {
-    background-color: #2C3C4C;
+    background-color: rgba(44, 60, 76, 0.66);
+    /*background-color: whitesmoke;*/
     width: 100%;
     margin: 0 auto;
 }
@@ -171,23 +174,10 @@ footer {
     flex-wrap: wrap;
     margin: 0 auto;
     max-width: 1200px;
-    padding-top: 80px;
+    padding-top: 40px;
 
 }
 
-.foot .article > p {
-    display: flex;
-    flex-basis: 100%;
-    text-align: center;
-    color: #cae4ff;
-    font-weight: lighter;
-    font-size: .8em;
-    justify-content: center;
-    border-top: .5px solid #53708F;
-    margin-top: 40px;
-    padding-bottom: 40px;
-    padding-top: 5px;
-}
 
 .subscribe .subscribe-sec .subscribe-sec-div > article > h2 {
     justify-content: center;
@@ -199,45 +189,47 @@ footer {
 
 .foot .article .foot-items {
     display: flex;
+    flex-wrap: wrap;
 }
 
 
 .foot .article .menu, .contact {
     display: flex;
     flex-basis: 25%;
-    flex-wrap: wrap;
 }
 
 .foot .article .menu {
-    padding-left: 20px;
-}
-
-.foot .article .menu ul{
     display: flex;
-    flex-basis: 100%;
+    flex-basis: 50%;
+    margin: 0 auto;
     flex-wrap: wrap;
 }
 
-.foot .article .menu ul li{
+.foot .article .menu ul {
+    display: flex;
+    flex-basis: 100%;
+    /*flex-wrap: wrap;*/
+}
+
+.foot .article .menu ul li {
     line-height: 40px;
-    font-size: .8em;
+    font-size: 14px;
     color: #cae4ff;
     display: flex;
     flex-basis: 100%;
+
 }
 
-.foot .article .menu ul li a{
+.foot .article .menu ul li a {
     display: flex;
     flex-basis: 100%;
     color: #cae4ff;
-    font-weight: bolder;
-    padding-left: 5px;
+    margin: 0 auto;
+    justify-content: center;
 }
 
-.foot .article .menu ul li a:hover{
+.foot .article .menu ul li a:hover {
     text-decoration: underline #cae4ff;
-    translate: .5px .5px;
-    font-size: 1.2em;
     transition-duration: .1s;
 }
 
@@ -250,6 +242,11 @@ footer {
 }
 
 .foot .article .contact {
+    display: flex;
+    flex-basis: 50%;
+    margin: 0 auto;
+    flex-wrap: nowrap;
+    justify-content: right;
 }
 
 .foot .contact h2 {
@@ -262,26 +259,27 @@ footer {
 
 .foot .contact a {
     display: flex;
-    flex-basis: 100%;
+    flex-basis: 10%;
     align-items: center;
     line-height: 45px;
-    font-size: .8em;
+    font-size: 12px;
     color: #cae4ff;
-    padding-left: 5px;
-    font-weight: bolder;
+    justify-content: right;
+    /*font-weight: bolder;*/
 }
 
-.foot .contact a:hover{
+.foot .contact a:hover {
     /*text-decoration: underline #cae4ff;*/
-    translate: .5px .5px;
-    font-size: .9em;
+    translate: .2px .2px;
+    font-size: 13px;
     transition-duration: .1s;
 }
 
 .foot .contact a i {
     align-items: center;
-    margin-right: 5px;
+    margin: 0 auto;
     font-size: 1.6em;
+    justify-content: center;
     padding: 2px;
     color: #cae4ff;
 }
@@ -299,18 +297,35 @@ footer {
     flex-basis: 50%;
 }
 
-.foot .guizo h2 {
+/*.foot .guizo h2 {*/
+/*    display: flex;*/
+/*    flex-basis: 80%;*/
+/*    margin: 0 auto;*/
+/*    font-size: 1em;*/
+/*    color: #cae4ff;*/
+/*}*/
+
+/*.foot .guizo > p {*/
+/*    text-align: justify;*/
+/*    line-height: 30px;*/
+/*    font-size: 12px;*/
+/*    color: #cae4ff;*/
+/*}*/
+
+
+.foot .article > p {
     display: flex;
-    flex-basis: 80%;
-    margin: 0 auto;
-    font-size: 1em;
+    flex-basis: 100%;
+    text-align: center;
     color: #cae4ff;
+    font-weight: lighter;
+    font-size: 11px;
+    justify-content: center;
+    border-top: .5px solid rgba(83, 112, 143, 0.27);
+    margin-top: 40px;
+    padding-bottom: 40px;
+    padding-top: 10px;
 }
 
-.foot .guizo > p {
-    text-align: justify;
-    line-height: 30px;
-    font-size: .8em;
-    color: #cae4ff;
-}
-
+/*/////////////////////////////////////////// BLOG //////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////// BLOG //////////////////////////////////////////////////////////////*/

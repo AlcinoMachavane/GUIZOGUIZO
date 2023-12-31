@@ -261,7 +261,7 @@
 
 .why-us .img {
     flex-basis: 100%;
-    background-image: url("../../images/tecladoPink.svg");
+    background-image: url("../../images/tecladoPink.png");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -290,4 +290,68 @@
 
 .why-us .why-us-article-content article > p {
     margin-bottom: 20px;
+}
+
+
+/*/////////////////////////////////////////// BLOG //////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////// BLOG //////////////////////////////////////////////////////////////*/
+
+.main-blog{
+    display: flex;
+    flex-basis: 100%;
+    /*background-color: antiquewhite;*/
+    border-top: 1px solid whitesmoke;
+}
+
+.main-blog .conteiner-blog{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    /*background-color: rebeccapurple;*/
+    flex-wrap: wrap;
+}
+
+.main-blog .conteiner-blog .blog{
+    display: flex;
+    flex-basis: 33.33333333333%;
+    margin: 40px auto;
+    justify-content: center;
+    /*background-color: cyan;*/
+    line-height: 1.4em;
+    transition: 1s;
+}
+
+.main-blog .conteiner-blog .blog:hover{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition-duration: .6s;
+    translate: -2px 0;
+    /*-ms-scroll-translation: vertical-to-horizontal;*/
+    border-radius: 5%;
+}
+
+.main-blog .conteiner-blog .blog h1{
+    display: flex;
+    flex-basis: 100%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 20px 0 20px 0;
+    font-size: 1.1em;
+    border-bottom: 1px solid white;
+    transition: .5s;
+    /*background-color: darkorange;*/
+}
+
+.main-blog .conteiner-blog .blog h1:hover{
+    border-bottom: 1px solid lightgrey;
+    transition: .5s;
+}
+.main-blog .conteiner-blog .blog h1 a{
+    color: rgba(6, 105, 187, 0.73);
+}
+
+.main-blog .conteiner-blog .blog p{
+    text-align: justify;
+    padding: 0 0 20px 0;
+    color: rgba(0, 0, 0, 0.72);
 }

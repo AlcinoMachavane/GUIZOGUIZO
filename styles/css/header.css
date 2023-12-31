@@ -82,12 +82,14 @@
     height: 100%;
     padding: 0 1.2em;
     align-items: center;
+    transition: .2s;
 }
 
 .header-top .conteiner-header .header-menu ul li a:hover {
     color: var(--BG);
     /*background-color: var(--ID);*/
     background-color: var(--IDG);
+    transition-duration: .8s;
 }
 
 /*.header-top .conteiner-header .header-menu ul li .home:hover{*/
@@ -108,7 +110,7 @@
 .content {
     /*background-color: var(--IDG);*/
     width: 100%;
-    background-image: url("../../images/tecladoWhite.svg");
+    background-image: url("../../images/tecladoWhite.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right center;
@@ -191,6 +193,7 @@
     align-items: center;
     justify-content: center;
     margin: 0 auto;
+    transition: 1s;
 }
 
 
@@ -241,3 +244,169 @@
 .menu-mobile-list li a:hover{
     color: var(--IDG);
 }
+
+/*/////////////////////////////////////////// BLOG //////////////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////// BLOG //////////////////////////////////////////////////////////////*/
+
+.content-blog-emphasis-main{
+    flex-basis: 100%;
+    display: flex;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+
+.content-blog-emphasis-main .blog-emphasis-main{
+    display: flex;
+    flex-basis: 50%;
+    flex-wrap: wrap;
+    cursor: pointer;
+    margin: 10px;
+    transition: 1s;
+}
+
+.content-blog-emphasis-main .blog-emphasis-main:hover{
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+    transition-duration: 5s;
+    translate: -4px 0;
+    border-radius: 2%;
+}
+
+
+.blog-emphasis-main-image{
+    background-image: url("../../images/tecladoWood.jpg");
+    display: flex;
+    flex-basis: 100%;
+    margin-bottom: 10px;
+    margin-top: 0;
+    margin-right: 0;
+    margin-left: 0;
+    height: calc(70% - 10px);
+    background-size: cover;
+    background-position: center center;
+    transition: 1s;
+}
+
+.blog-emphasis-main-image:hover{
+    border-radius: 2% 2% 0 0;
+}
+
+.content-blog-emphasis-main .blog-emphasis-main-txt{
+    display: flex;
+    flex-basis: 100%;
+    height: calc(30% - 10px);
+    margin: auto;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    /*line-height: 40px;*/
+}
+
+.content-blog-emphasis-main .blog-emphasis-main-txt h1{
+    display: flex;
+    flex-basis: 90%;
+    margin: auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid white;
+    transition: .5s;
+}
+.content-blog-emphasis-main .blog-emphasis-main-txt h1 a{
+    color: rgba(6, 105, 187, 0.73);
+}
+
+.content-blog-emphasis-main .blog-emphasis-main-txt h1:hover{
+    border-bottom: 1px solid lightgrey;
+}
+
+.content-blog-emphasis-main .blog-emphasis-main-txt p{
+    display: flex;
+    text-align: justify;
+    flex-basis: 100%;
+    padding-bottom: 20px;
+    color: rgba(0, 0, 0, 0.72);
+}
+
+.content-blog-emphasis-main .blog-emphasis{
+    display: flex;
+    max-width: 1200px;
+    /*background-color: darkorange;*/
+    cursor: pointer;
+    flex-basis: 100%;
+    margin: 0 auto;
+    justify-content: center;
+    transition: 1s;
+}
+
+.content-blog-emphasis-main .blog-emphasis:hover{
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    transition-duration: .6s;
+    translate: -2px 0;
+    border-radius: 1%;
+}
+
+.blog-emphasis-main-txt{
+    display: flex;
+    flex-basis: calc(50% - 20px);
+}
+
+.content-blog-emphasis-main .conteiner-blog-emphasis{
+    display: flex;
+    flex-basis: calc(50% - 20px);
+    margin: auto;
+    /*background-color: #ff253a;*/
+    flex-wrap: wrap;
+    /*padding: 0 0 0 10px;*/
+    justify-content: space-between;
+}
+
+.blog-emphasis-image{
+    background-image: url("../../images/tecladoWood.jpg");
+    display: flex;
+    flex-basis: calc(50% - 20px);
+    background-size: cover;
+    background-position: center center;
+    width: 150px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.blog-emphasis-txt{
+    display: flex;
+    flex-basis: calc(50% - 20px);
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.blog-emphasis-txt h1{
+    display: flex;
+    flex-basis: 90%;
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    border-bottom: 1px solid white;
+    transition: .5s;
+}
+
+.blog-emphasis-txt h1 a{
+    color: rgba(6, 105, 187, 0.73);
+}
+
+.blog-emphasis-txt h1:hover{
+    border-bottom: 1px solid lightgrey;
+}
+
+.blog-emphasis-txt p{
+    display: flex;
+    text-align: justify;
+    margin: auto;
+    color: rgba(0, 0, 0, 0.72);
+}
+
+
+
+
+
