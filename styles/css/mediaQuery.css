@@ -374,8 +374,16 @@
 /*/////////////////////////////////////////// BLOG //////////////////////////////////////////////////////////////*/
 /*/////////////////////////////////////////// BLOG //////////////////////////////////////////////////////////////*/
 
-/* 950px */
-@media (max-width: 950px) {
+
+/* 1020px */
+@media (max-width: 1100px){
+    .blog-txt h1{
+        max-width: 300px;
+    }
+}
+
+/* 980px */
+@media (max-width: 1000px) {
     .content-blog-emphasis-main .blog-emphasis-main {
         flex-basis: 100%;
         display: flex;
@@ -402,14 +410,11 @@
         transition: 1s;
         background-color: whitesmoke;
     }
-}
-
-/* 720px */
-@media (max-width: 720px){
     .blog-txt h1{
         max-width: 300px;
     }
 }
+
 
 /* 870px */
 @media (max-width: 870px){
