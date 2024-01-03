@@ -220,10 +220,10 @@
     color: white;
     position: absolute;
     width: 280px;
-    margin-top: 14px;
+    margin-top: 13.9px;
     translate: -220px 0;
     border-radius: 0 0 0 20px;
-    box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: -8px 8px 20px rgba(0, 0, 0, 0.3);
     transition: 1s;
     z-index: 10000;
     /*background-color: black;*/
