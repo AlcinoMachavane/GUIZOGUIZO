@@ -377,7 +377,6 @@
 /* 950px */
 @media (max-width: 950px) {
     .content-blog-emphasis-main .blog-emphasis-main {
-        background-color: goldenrod;
         flex-basis: 100%;
         display: flex;
         margin: auto;
@@ -387,7 +386,6 @@
     }
 
     .blog-emphasis-main-image {
-        border: 1px solid red;
         flex-basis: 50%;
         height: 100%;
         margin-bottom: 0;
@@ -400,7 +398,6 @@
     }
 
     .content-blog-emphasis-main .conteiner-blog-emphasis {
-        background-color: #ff253a;
         flex-basis: 100%;
         transition: 1s;
     }
@@ -410,6 +407,7 @@
 @media (max-width: 870px){
     .main-blog .conteiner-blog .blog{
         flex-basis: 50%;
+        margin: 0 auto;
     }
 }
 

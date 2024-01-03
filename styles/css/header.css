@@ -275,7 +275,6 @@
 
 .blog-emphasis-main-image{
     background-image: url("../../images/tecladoWood.jpg");
-    border: 1px solid red;
     display: flex;
     flex-basis: 100%;
     margin-bottom: 10px;
@@ -299,7 +298,6 @@
     margin: 0 auto;
     flex-wrap: wrap;
     padding-bottom: 20px;
-    border: 1px solid purple;
 }
 
 .content-blog-emphasis-main .blog-emphasis-main-txt h1{
@@ -312,7 +310,6 @@
 }
 .content-blog-emphasis-main .blog-emphasis-main-txt h1 a{
     color: rgba(6, 105, 187, 0.73);
-    border: 1px solid green;
 }
 
 .content-blog-emphasis-main .blog-emphasis-main-txt h1:hover{
@@ -325,7 +322,6 @@
     flex-basis: 100%;
     padding-bottom: 20px;
     color: rgba(0, 0, 0, 0.72);
-    border: 1px solid gold;
 }
 
 .content-blog-emphasis-main .blog-emphasis{
