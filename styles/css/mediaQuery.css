@@ -400,6 +400,7 @@
     .content-blog-emphasis-main .conteiner-blog-emphasis {
         flex-basis: 100%;
         transition: 1s;
+        background-color: whitesmoke;
     }
 }
 
