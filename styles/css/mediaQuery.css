@@ -424,21 +424,11 @@
     }
 }
 
-/* 550px */
-@media (max-width: 550px){
+/* 570px */
+@media (max-width: 570px){
     .main-blog .conteiner-blog .blog{
         flex-basis: 100%;
         margin: 0 auto;
-    }
-}
-
-/* 470px */
-@media (max-width: 470px) {
-    .blog-emphasis-main-image {
-        flex-basis: 100%;
-    }
-    .content-blog-emphasis-main .blog-emphasis-main-txt{
-        flex-basis: 100%;
     }
 
     .blog-emphasis{
@@ -450,9 +440,21 @@
         flex-basis: 100%;
         min-height: 200px;
         margin: 0 auto;
+        transition: 1s;
     }
     .blog-emphasis-txt{
         flex-basis: 100%;
         margin: 15px auto;
+        transition: 1s;
+    }
+}
+
+/* 470px */
+@media (max-width: 470px) {
+    .blog-emphasis-main-image {
+        flex-basis: 100%;
+    }
+    .content-blog-emphasis-main .blog-emphasis-main-txt{
+        flex-basis: 100%;
     }
 }

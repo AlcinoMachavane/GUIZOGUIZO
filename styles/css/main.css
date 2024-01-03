@@ -300,7 +300,7 @@
     display: flex;
     flex-basis: 100%;
     /*background-color: antiquewhite;*/
-    border-top: 1px solid whitesmoke;
+    border-top: 1px solid lightgrey;
 }
 
 .main-blog .conteiner-blog{
