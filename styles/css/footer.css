@@ -214,7 +214,7 @@ footer {
 .foot .article .menu ul li {
     line-height: 40px;
     font-size: 14px;
-    color: #cae4ff;
+    color: white;
     display: flex;
     flex-basis: 100%;
 
@@ -223,7 +223,7 @@ footer {
 .foot .article .menu ul li a {
     display: flex;
     flex-basis: 100%;
-    color: #cae4ff;
+    color: white;
     margin: 0 auto;
     justify-content: center;
 }
@@ -238,7 +238,7 @@ footer {
     flex-basis: 100%;
     margin: 0 auto;
     font-size: 1.1em;
-    color: #cae4ff;
+    color: white;
 }
 
 .foot .article .contact {
@@ -254,7 +254,7 @@ footer {
     flex-basis: 100%;
     margin: 0 auto;
     font-size: 1.1em;
-    color: #cae4ff;
+    color: white;
 }
 
 .foot .contact a {
@@ -263,7 +263,7 @@ footer {
     align-items: center;
     line-height: 45px;
     font-size: 12px;
-    color: #cae4ff;
+    color: white;
     justify-content: right;
     /*font-weight: bolder;*/
 }
@@ -273,6 +273,7 @@ footer {
     translate: .2px .2px;
     font-size: 13px;
     transition-duration: .1s;
+    color: white;
 }
 
 .foot .contact a i {
@@ -281,7 +282,8 @@ footer {
     font-size: 1.6em;
     justify-content: center;
     padding: 2px;
-    color: #cae4ff;
+    /*color: #cae4ff;*/
+    color: white;
 }
 
 /*.foot .contact a img {*/
@@ -317,7 +319,7 @@ footer {
     display: flex;
     flex-basis: 100%;
     text-align: center;
-    color: #cae4ff;
+    color: white;
     font-weight: lighter;
     font-size: 11px;
     justify-content: center;
