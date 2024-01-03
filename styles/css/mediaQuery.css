@@ -406,6 +406,21 @@
     }
 }
 
+/* 870px */
+@media (max-width: 870px){
+    .main-blog .conteiner-blog .blog{
+        flex-basis: 50%;
+    }
+}
+
+/* 550px */
+@media (max-width: 550px){
+    .main-blog .conteiner-blog .blog{
+        flex-basis: 100%;
+        margin: 0 auto;
+    }
+}
+
 /* 470px */
 @media (max-width: 470px) {
     .blog-emphasis-main-image {
