@@ -9,7 +9,7 @@
     position: sticky; /*Ou podia usar o position fixed*/
     top: 0;
     /*background-color: white;*/
-    z-index: 2;
+    z-index: 1;
 }
 
 .rolagem{
@@ -452,7 +452,8 @@
     border-radius: 30px;
     text-align: center;
     box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
-    z-index: 0;
+    /*z-index: 0;*/
+    margin: 0 10px;
 
 }
 
