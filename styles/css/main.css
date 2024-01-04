@@ -355,3 +355,72 @@
     padding: 0 0 20px 0;
     color: rgba(0, 0, 0, 0.72);
 }
+
+/*/////////////////////////////////////////// Nossos servicos ///////////////////////////////////////////////////*/
+/*/////////////////////////////////////////// Nossos servicos ///////////////////////////////////////////////////*/
+
+.main-our-service{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main-our-service .main-our-service-content{
+    display: flex;
+    flex-basis: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.main-our-service .main-our-service-content .our-service-article{
+    display: flex;
+    flex-basis: 100%;
+    /*flex-basis: 50%;*/
+    /*flex-basis: calc(50% - 40px);*/
+    flex-wrap: wrap;
+    background-color: rgba(51, 97, 170, 0.18);
+    margin: 80px auto;
+    /*margin-left: 20px;*/
+    transition: 1s;
+}
+
+.main-our-service .main-our-service-content .our-service-article .article-img{
+    background-image: url("../../images/ilustração.png");
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*background-attachment: fixed;*/
+    display: flex;
+    flex-basis: 50%;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+}
+
+
+.main-our-service .main-our-service-content .our-service-article .article-text{
+    display: flex;
+    flex-basis: 50%;
+    flex-wrap: wrap;
+    padding: 20px;
+    transition: 1s;
+}
+
+.main-our-service .main-our-service-content .our-service-article .article-text h2{
+    display: flex;
+    flex-basis: 100%;
+    text-align: center;
+    margin: 0 auto;
+    transition: 1s;
+}
+
+
+.main-our-service .main-our-service-content .our-service-article .article-text p{
+    display: flex;
+    flex-basis: 100%;
+    /*margin-left: 0;*/
+    line-height: 40px;
+    margin: 0 auto;
+    text-align: justify;
+    transition: 1s;
+}
