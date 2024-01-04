@@ -388,6 +388,7 @@
     background-image: url("../../images/ilustração.png");
     background-position: left top;
     background-size: cover;
+    min-height: 500px;
     background-repeat: no-repeat;
     /*background-attachment: fixed;*/
     display: flex;
