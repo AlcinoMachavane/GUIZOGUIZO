@@ -5,11 +5,11 @@ $(function () {
     });
 });
 
-window.addEventListener("scroll", function () {
-    let header = document.querySelector('.header-top, .menu-mobile-list')
-    header.classList.toggle('rolagem', window.scrollY > 0);
-})
-window.addEventListener("touchmove", function () {
+// window.addEventListener("scroll", function () {
+//     let header = document.querySelector('.header-top, .menu-mobile-list')
+//     header.classList.toggle('rolagem', window.scrollY > 0);
+// })
+window.addEventListener("touchstart", function () {
     let header = document.querySelector('.header-top, .menu-mobile-list')
     header.classList.toggle('rolagem', window.scrollY > 0)
 
