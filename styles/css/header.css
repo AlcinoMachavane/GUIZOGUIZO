@@ -9,6 +9,7 @@
     position: sticky; /*Ou podia usar o position fixed*/
     top: 0;
     /*background-color: white;*/
+    z-index: 2;
 }
 
 .rolagem{
@@ -25,7 +26,6 @@
     padding: 0 2em;
     display: flex;
     height: 60px;
-    /*z-index: 888888; !* <= Remover caso crie problemas *!*/
 }
 
 .header-top .conteiner-header .header-logo {
@@ -225,7 +225,6 @@
     border-radius: 0 0 0 20px;
     box-shadow: -8px 8px 20px rgba(0, 0, 0, 0.3);
     transition: 1s;
-    z-index: 10000;
     /*background-color: black;*/
 }
 
@@ -423,7 +422,39 @@
     color: rgba(0, 0, 0, 0.72);
 }
 
+/*//////////////////////////////////////// Nossos servicoa ////////////////////////////////////////////////////*/
 
+.our-service{
+    background-image: url("../../images/ilustração.svg");
+    display: flex;
+    flex-basis: 100%;
+    background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.our-service .our-service-BG-black{
+    background-color: rgba(6, 105, 187, 0.22);
+    display: flex;
+    flex-basis: 100%;
+}
+
+.our-service .our-service-BG-black .content-img-main{
+    /*background-color: #ff253a;*/
+    align-items: center;
+    margin: 0 auto;
+    color: #2e005b;
+}
+.our-service .our-service-BG-black .content-img-main h1{
+    background-color: rgba(255, 255, 255, 0.56);
+    backdrop-filter: blur(15px);
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.25);
+    z-index: 0;
+
+}
 
 
 
