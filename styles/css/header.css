@@ -440,10 +440,9 @@
 }
 
 .our-service .our-service-BG-black .content-img-main{
-    /*background-color: #ff253a;*/
+    background-color: transparent;
     align-items: center;
     margin: 0 auto;
-    color: #2e005b;
 }
 .our-service .our-service-BG-black .content-img-main h1{
     background-color: rgba(255, 255, 255, 0.56);
