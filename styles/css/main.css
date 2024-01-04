@@ -411,6 +411,7 @@
     flex-basis: 100%;
     text-align: center;
     margin: 0 auto;
+    justify-content: center;
     transition: 1s;
 }
 
