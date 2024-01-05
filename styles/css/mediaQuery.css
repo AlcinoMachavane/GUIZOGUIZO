@@ -419,8 +419,8 @@
 /* 870px */
 @media (max-width: 870px){
     .main-blog .conteiner-blog .blog{
-        flex-basis: 50%;
-        margin: 0 auto;
+        flex-basis: calc(50% - 20px);
+        margin: 10px auto;
     }
 }
 
@@ -428,7 +428,7 @@
 @media (max-width: 570px){
     .main-blog .conteiner-blog .blog{
         flex-basis: 100%;
-        margin: 0 auto;
+        margin: 10px auto;
     }
 
     .blog-emphasis{
@@ -440,12 +440,22 @@
         flex-basis: 100%;
         min-height: 200px;
         margin: 0 auto;
+        margin-top: 20px;
         transition: 1s;
     }
     .blog-emphasis-txt{
         flex-basis: 100%;
         margin: 15px auto;
         transition: 1s;
+        margin-top: 0;
+    }
+
+    .blog-emphasis-txt h1{
+        padding-top: 20px;
+    }
+
+    .blog-emphasis-txt p{
+        padding-bottom: 20px;
     }
 }
 

@@ -277,7 +277,8 @@
     flex-basis: 50%;
     flex-wrap: wrap;
     cursor: pointer;
-    background-color: whitesmoke;
+    /*background-color: whitesmoke;*/
+    background-color: rgba(51, 97, 170, 0.18);
     margin: 10px;
     transition: 1s;
 }
@@ -344,7 +345,6 @@
 .content-blog-emphasis-main .blog-emphasis{
     display: flex;
     max-width: 1200px;
-    /*background-color: darkorange;*/
     cursor: pointer;
     flex-basis: 100%;
     margin: 0 auto;
@@ -381,6 +381,7 @@
     background-size: cover;
     background-position: center center;
     width: 150px;
+    min-height: 200px;
     margin-bottom: 10px;
     margin-top: 10px;
     margin-right: 10px;
@@ -395,6 +396,7 @@
     margin-top: 10px;
     margin-right: 10px;
     margin-left: 0;
+    background-color: rgba(51, 97, 170, 0.18);
 }
 
 .blog-emphasis-txt h1{
