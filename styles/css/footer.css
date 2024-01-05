@@ -269,9 +269,7 @@ footer {
 }
 
 .foot .contact a:hover {
-    /*text-decoration: underline #cae4ff;*/
-    translate: .2px .2px;
-    font-size: 13px;
+    /*font-size: 13px;*/
     transition-duration: .1s;
     color: white;
 }
@@ -279,41 +277,25 @@ footer {
 .foot .contact a i {
     align-items: center;
     margin: 0 auto;
-    font-size: 1.6em;
+    font-size: 2.5em;
     justify-content: center;
-    padding: 2px;
+    padding: 5px;
+    border: 1px solid;
+    /*border-radius: 50%;*/
     /*color: #cae4ff;*/
     color: white;
 }
 
-/*.foot .contact a img {*/
-/*    max-width: 20px;*/
-/*    align-items: center;*/
-/*    margin-right: 5px;*/
-/*    background-color: #cae4ff;*/
-/*    border-radius: 50%;*/
-/*}*/
+.foot .contact a i:hover{
+    color: #cae4ff;
+    border: 1px solid #cae4ff;
+    border-radius: 40%;
+}
 
 .foot .article .guizo {
     flex-wrap: wrap;
     flex-basis: 50%;
 }
-
-/*.foot .guizo h2 {*/
-/*    display: flex;*/
-/*    flex-basis: 80%;*/
-/*    margin: 0 auto;*/
-/*    font-size: 1em;*/
-/*    color: #cae4ff;*/
-/*}*/
-
-/*.foot .guizo > p {*/
-/*    text-align: justify;*/
-/*    line-height: 30px;*/
-/*    font-size: 12px;*/
-/*    color: #cae4ff;*/
-/*}*/
-
 
 .foot .article > p {
     display: flex;
