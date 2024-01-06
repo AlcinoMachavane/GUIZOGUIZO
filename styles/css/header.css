@@ -238,8 +238,16 @@
     flex-basis: 100%;
     justify-content: center;
     /*width: 320px;*/
-    border-radius: 0px 0px 0px 20px;
+    /*border-radius: 0px 0px 0px 20px;*/
     transition: 1s;
+}
+
+.midle:hover{
+    border-radius: 0px 0px 0px 0px;;
+}
+
+#end{
+    border-radius: 0px 0px 0px 20px;
 }
 
 .menu-mobile-list li:hover{
