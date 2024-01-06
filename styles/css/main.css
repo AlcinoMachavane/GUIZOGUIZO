@@ -382,6 +382,7 @@
     background-color: rgba(51, 97, 170, 0.18);
     margin: 80px auto;
     /*margin-left: 20px;*/
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.33);
     transition: 1s;
 }
 
