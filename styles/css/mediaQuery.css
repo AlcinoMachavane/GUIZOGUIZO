@@ -436,7 +436,7 @@
         margin: 0 auto;
     }
 
-    .blog-emphasis-image{
+    #na, #nb{
         flex-basis: 100%;
         min-height: 200px;
         margin: 0 auto;
