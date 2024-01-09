@@ -24,14 +24,27 @@
     margin: 0 auto;
     max-width: 800px;
     flex-wrap: wrap;
+    /*background-color: greenyellow;*/
 }
 
 .main-view-blog-img{
+    background-image: url("../../images/na.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right top;
     display: flex;
     flex-basis: 100%;
+    margin: 0 auto;
+    height: 400px;
     /*height: 500px;*/
 
 }
+
+/*.main-view-blog-img img{*/
+/*    display: flex;*/
+/*    flex-basis: 100%;*/
+/*    margin: 0 auto;*/
+/*}*/
 
 .main-view-blog-txt{
     text-align: center;
