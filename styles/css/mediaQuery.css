@@ -493,3 +493,32 @@
     }
 }
 
+
+/*/////////////////////////////////////////// BLOGmedisView //////////////////////////////////////////////////////*/
+/*/////////////////////////////////////////// BLOGmedisView /////////////////////////////////////////////////////*/
+
+/* 1300px */
+@media (max-width: 1300px){
+    .view-blog{
+        flex-basis: calc(33.33333333333% - 20px);
+    }
+}
+
+/* 950px */
+@media (max-width: 950px){
+    .view-blog{
+        flex-basis: calc(50% - 20px);
+    }
+
+    .view-blog-txt h1{
+        max-width: 300px;
+    }
+}
+
+/* 750px */
+@media (max-width: 750px){
+    .view-blog{
+        flex-basis: calc(100% - 20px);
+    }
+}
+
