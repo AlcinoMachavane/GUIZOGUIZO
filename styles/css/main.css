@@ -316,10 +316,21 @@
     flex-basis: calc(33.33333333333% - 20px);
     margin: 20px 10px;
     justify-content: center;
-    /*background-color: goldenrod;*/
+    flex-wrap: wrap;
     border: 1px solid rgba(6, 105, 187, 0.22);
     line-height: 1.4em;
     transition: 1s;
+}
+
+.blog-main-image{
+    background-image: url("../../images/nb.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    display: flex;
+    flex-basis: 100%;
+    margin: 0 auto;
+    height: 200px;
 }
 
 .main-blog .conteiner-blog .blog:hover{

@@ -413,6 +413,16 @@
     .blog-txt h1{
         max-width: 300px;
     }
+
+
+    /*.blog-emphasis-main-image{*/
+    /*    !*height: calc(80% - 10px);*!*/
+    /*    height: 400px;*/
+    /*}*/
+
+    /*.content-blog-emphasis-main .blog-emphasis-main-txt{*/
+    /*    !*height: calc(20% - 10px);*!*/
+    /*}*/
 }
 
 
@@ -442,6 +452,7 @@
         margin: 0 auto;
         margin-top: 80px;
         transition: 1s;
+        height: 400px;
     }
     .blog-emphasis-txt{
         flex-basis: 100%;
@@ -456,6 +467,10 @@
 
     .blog-emphasis-txt p{
         padding-bottom: 20px;
+    }
+
+    .blog-main-image{
+        height: 400px;
     }
 }
 
