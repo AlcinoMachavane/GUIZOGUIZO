@@ -40,12 +40,6 @@
 
 }
 
-/*.main-view-blog-img img{*/
-/*    display: flex;*/
-/*    flex-basis: 100%;*/
-/*    margin: 0 auto;*/
-/*}*/
-
 .main-view-blog-txt{
     text-align: center;
     justify-content: center;
@@ -88,7 +82,7 @@
     margin: 20px 10px;
     flex-wrap: wrap;
     justify-content: space-between;
-
+    max-width: 600px;
     border: 1px solid rgba(6, 105, 187, 0.22);
     line-height: 1.4em;
     transition: 1s;
